@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <title>LilMusicano - Top 10</title>
+    <link rel="icon" href="../mi.png">    
+
+    <!-- Insert to your webpage before the </head> -->
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-2.css">
+    <script src="audioplayerengine/initaudioplayer-2.js"></script>
+    <!-- End of head section HTML codes -->
+    <style>
+        body{
+        background: #000000 
+    }
+    .btn-group button {
+  background-color: rgb(0, 255, 242); /* Green background */
+  border: 1px solid rgb(236, 236, 236); /* Green border */
+  color: rgb(0, 0, 0); /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-family:fantasy;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #fa0068;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(255, 0, 98);
+}
+    </style>
+</head>
+
+<body style="background-color:black;">
+    <h1>Top 10</h1>
+
+    <!-- Four buttons in a group -->
+    <div class="btn-group" style="width:100%">
+
+    <a href="../homepage.html">
+    <button style="width:33.33%">Home</button>
+    </a>
+
+    <button style="width:33.33%">Top 10</button>
+
+    <a href="../My Music/audioplayer.html">
+        <button style="width:33.33%">My Music - Beta</button>
+    </a>
+
+    </div>
+<div style="margin:10px auto;">
+    
+    <!-- Insert to your webpage where you want to display the audio player -->
+    <div id="amazingaudioplayer-2" style="display:block;position:relative;width:100%;height:auto;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="Doja Cat" data-title="Say So" data-album="" data-info="" data-image="audio/album%20art/Say_So.png" data-duration="234">
+                <div class="amazingaudioplayer-source" data-src="audio/1Say%20So_Doja%20Cat%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="6ix9ine" data-title="Gooba" data-album="" data-info="" data-image="audio/album%20art/Gooba.png" data-duration="136">
+                <div class="amazingaudioplayer-source" data-src="audio/2GOOBA_6ix9ine%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="The Weeknd" data-title="Blinding Lights" data-album="" data-info="" data-image="audio/album%20art/Blinding_Lights.png" data-duration="199">
+                <div class="amazingaudioplayer-source" data-src="audio/3Blinding%20Lights_The%20Weeknd%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Megan Thee Stallion" data-title="Savage" data-album="" data-info="" data-image="audio/album%20art/Savage.png" data-duration="155">
+                <div class="amazingaudioplayer-source" data-src="audio/4Savage_Megan%20Thee%20Stallion.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Drake" data-title="Toosie Slide" data-album="" data-info="" data-image="audio/album%20art/Toosie_Slide.png" data-duration="247">
+                <div class="amazingaudioplayer-source" data-src="audio/5Toosie%20Slide_Drake.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Roddy Ricchi" data-title="The BoX" data-album="" data-info="" data-image="audio/album%20art/The_Box.jpg" data-duration="197">
+                <div class="amazingaudioplayer-source" data-src="audio/6The_Box.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="DaBaya feat.Roddy Ricchi" data-title="Rockstar" data-album="" data-info="" data-image="audio/album%20art/Rockstarpng.png" data-duration="181">
+                <div class="amazingaudioplayer-source" data-src="audio/7ROCKSTAR_feat.%20Roddy_Ricch_DaBaby%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Justin Bieber feat.Quavo" data-title="Intentions" data-album="" data-info="" data-image="audio/album%20art/Intentions.png" data-duration="212">
+                <div class="amazingaudioplayer-source" data-src="audio/8Intentions%20ft.%20Quavo_Justin%20Bieber.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Future feat.Drake" data-title="Life is good" data-album="" data-info="" data-image="audio/album%20art/Life_Is_Good.png" data-duration="237">
+                <div class="amazingaudioplayer-source" data-src="audio/9Life%20Is%20Good%20ft.%20Drake_Future%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+            <li data-artist="Travis Scott, Kid Cudi" data-title="The Scotts" data-album="" data-info="" data-image="audio/album%20art/The_Scotts.png" data-duration="182">
+                <div class="amazingaudioplayer-source" data-src="audio/10THE%20SCOTTS,%20Travis%20Scott,%20Kid%20Cudi%20.mp3" data-type="audio/mpeg" ></div>
+            </li>
+        </ul>
+        
+    </div>
+    <!-- End of body section HTML codes -->
+    <div>
+        <p style="color: rgb(236, 236, 236); font-family: fantasy; font-size: small;">
+            To check Top 50 Song names click <a style="text-decoration: none; color: rgb(0, 255, 242);" href="../images/Hot R&B_Hip-Hop Songs Chart _ Billboard.pdf">here</a>.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
